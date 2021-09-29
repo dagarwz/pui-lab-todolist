@@ -36,7 +36,7 @@ function addListItem(){
     deleteButton.classList.add('delete');
     deleteButton.appendChild(document.createTextNode('x'));
     deleteButton.classList.add('delete');
-    deleteButton.setAttribute("onclick", "deleteListItem(this");
+    deleteButton.setAttribute("onclick", "deleteListItem(this)");
 
     newItem.appendChild(checkbox);
     newItem.appendChild(itemLabel);
