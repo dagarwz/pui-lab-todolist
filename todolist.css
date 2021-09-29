@@ -1,0 +1,23 @@
+li {
+    list-style: none;
+}
+
+#todo-list{
+    padding: 0px;
+}
+
+.todo-list-item{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+}
+
+.delete{
+    float: right;
+}
+
+.complete{
+    text-decoration: line-through;
+    color: rgb(100, 100, 100);
+}
+

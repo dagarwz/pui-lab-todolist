@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="todolist.css">
+    <script src="main.js" type="text/javascript"></script>
+    <title>
+        To Do App
+    </title>
+</head>
+
+<body>
+
+    <input id="new-list-item" type="text" placeholder="add a todo"/>
+    <button onclick="addListItem()">Add Item</button>
+    <ul id="todo-list" class="todo-list-item">
+        <li>
+            <input type="checkbox" onclick="toggleItem(this)">
+            <label> Go get groceries </label>
+            <button class="delete" onclick="deleteListItem(this)"> x </button>
+        </li>
+
+    </ul>
+
+</body>
+
+
+
+</html>
